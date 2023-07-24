@@ -1,0 +1,49 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+.body {
+  scroll-behavior: none;
+  background-color: #bbbbbb;
+}
+
+.navbar {
+  background-color: #525252;
+}
+
+.navbar-brand>img {
+  width: 50px;
+  height: 20px;
+}
+
+.loader-bg {
+  background-color: rgba(78, 78, 78, 0.678);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.news-card {
+  max-width: 700px;
+  width: 100%;
+}
+
+.div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.form-control {
+  background-color: #f8f8f882;
+  max-width: 800px;
+  min-width: 500px;
+}
